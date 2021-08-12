@@ -1,0 +1,415 @@
+
+.navv{
+    position: fixed;
+    top: 0px;
+    z-index: 200;
+    overflow: hidden;
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(180deg , #000, rgba(0, 0, 0, 0.8) 59%, transparent);
+}
+.jen{
+    color:rosybrown;
+    padding-right: 140px;
+    padding-left: 0px; 
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: none; 
+    width: 80%;
+    
+    
+}
+.jenn{
+    color:silver;
+    padding-right: 39px;
+    padding-left: 39px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration:none;
+
+    
+}
+.nav-container{
+    position: relative;
+    z-index: 200;
+    display: flex;
+    height: 100%;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+}
+.main-bod{
+    overflow: visible;
+    background-color: black;
+    color:white;
+}
+
+
+.main-section-container{
+    display: flex;
+    height:100%;
+    padding-top: 100px;
+    padding-right: 0px;
+    max-width: 728px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-section{
+    position: relative;
+    top: 75px;
+    margin:9px;
+}
+
+.left-box{
+    padding-left: 48px;
+    background-image: linear-gradient(104deg, #000, rgba(0, 0, 0, 0.94) 52%, rgba(0, 0, 0, 0.01));
+    justify-content: center;
+   
+}
+.intro {
+    position: relative;
+    z-index: 10;
+    display: block;
+    color:rosybrown;
+    font-size: 2em;
+    font-weight: 700;
+}
+.heading-2{
+   font-size: 5em;
+   margin-top:0;
+   margin-bottom:0;
+   color:pink;
+}
+
+.paragraph1{
+    position: relative;
+    z-index: 100;
+    color:rosybrown;
+    font-size: 1.3em;
+    line-height: 24px;
+    font-weight: 300;
+    text-align: justify; 
+    padding-right: 92px;
+
+}
+.sroll-bottom{
+    margin-top: 18px;
+    padding-left: 0;
+    border-bottom: 1px solid pink;
+    background-color:transparent;
+    font-size: 11px;
+    letter-spacing: 4px;
+    padding-top:9px;
+    padding-right: 15px;
+    padding-bottom:9px;
+    
+
+}
+.headshot{
+    height: 100%;
+    background-position-x: 50%; 
+    background-position-y: 50%;
+    background-size:contain;
+    
+}
+.right-box{
+  
+    padding-left:0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+   
+    
+}
+
+.sec-section{
+    position: relative;
+    top:75px;
+   
+    margin: 9px;
+    height: auto;
+}
+
+.sec-section-container{
+    display: flex;
+    height:100%;
+    padding-top: 80px;
+    padding-right: 0px;
+    max-width: 728px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sec-leftbox{
+    width: 95px;
+   position: relative;
+   display:flex;
+   margin:80px;
+   
+
+}
+
+.aboutme{
+    margin-top:10px ;
+    padding-top:60px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: pink;
+}
+
+.sec-rightbox{
+    margin: 10px;
+    padding-left:85px;
+    padding-top: 80px;
+  
+
+}
+
+.sec-paragraph{
+    position: relative;
+    z-index: 100;
+    color:#999;
+    font-size: 1.0em;
+    line-height: 24px;
+    font-weight: 300;
+    text-align: justify; 
+    padding-right: 92px;
+
+}
+
+.third-section{
+    position: relative;
+    top:75px;
+   
+    margin: 9px;
+    height: auto;
+}
+
+.thirdone-container{
+    display: flex;
+    height:100%;
+    padding-top: 80px;
+    padding-right: 0px;
+    max-width: 728px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.thirdone-leftbox{
+   position: relative;
+   display:flex;
+   margin:80px;
+   width:95px;
+}
+.intern{
+    margin-top:10px ;
+    padding-top:60px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:pink;
+
+}
+.asrock{
+    padding-left: 0;
+    margin-top: 10px;
+    display:flex;
+    font-size:x-small;
+    
+
+}
+.thirdone-rightbox{
+    margin: 10px;
+    padding-left:85px;
+    padding-top: 80px;
+}
+.internjourney{
+    position: relative;
+    z-index: 100;
+    color:#999;
+    font-size: 1.0em;
+    line-height: 24px;
+    font-weight: 300;
+    text-align: justify; 
+    padding-right: 92px;
+}
+.thirdtwo-container{
+    display: flex;
+    height:100%;
+    padding-top: 80px;
+    padding-right: 0px;
+    max-width: 728px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.thirdtwo-leftbox{
+    position: relative;
+    display:flex;
+    margin:80px;
+    width:95px;
+}
+
+.master{
+    margin-top:10px ;
+    padding-top:60px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:pink;
+
+
+}
+.thesistitle{
+    padding-left: 0;
+    margin-top: 10px;
+    display:flex;
+    font-size:x-small;
+    
+
+}
+.thirdtwo-rightbox{
+    margin: 10px;
+    padding-left:85px;
+    padding-top: 80px;
+}
+.thesis{
+    position: relative;
+    z-index: 100;
+    color:#999;
+    font-size: 1.0em;
+    line-height: 24px;
+    font-weight: 300;
+    text-align: justify; 
+    padding-right: 92px;
+}
+.thirdthird-container{
+    display: flex;
+    height:100%;
+    padding-top: 80px;
+    padding-right: 0px;
+    max-width: 728px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.thirdthird-leftbox{
+    position: relative;
+    display:flex;
+    margin:80px;
+    width:95px;
+}
+
+.independence{
+    margin-top:10px ;
+    padding-top:60px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:pink;
+
+}
+.aboriginal{
+    padding-left: 10;
+    margin-top: 10px;
+    display:flex;
+    font-size:x-small;
+
+}
+.thirdthird-rightbox{
+    margin: 10px;
+    padding-left:85px;
+    padding-top: 80px;
+}
+.aboriginal-language{
+    position: relative;
+    z-index: 100;
+    color:#999;
+    font-size: 1.0em;
+    line-height: 24px;
+    font-weight: 300;
+    text-align: justify; 
+    padding-right: 92px;
+
+}
+
+.forth-section{
+    position: relative;
+    top:75px;
+   
+    margin: 9px;
+    height: auto;
+}
+
+.forth-section-container{
+    display: flex;
+    height:100%;
+    padding-top: 80px;
+    padding-right: 0px;
+    max-width: 728px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.forth-leftbox{
+    width: 95px;
+   position: relative;
+   display:flex;
+   margin:80px;
+   
+
+}
+
+.findme{
+    margin-top:10px ;
+    padding-top:60px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:pink;
+}
+
+.forth-rightbox{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 60px;
+    padding-left:85px;
+    padding-top: 80px;
+  
+
+}
+
+.email{
+    position: relative;
+    z-index: 100;
+    color:#999;
+    font-size: 1.0em;
+    line-height: 24px;
+    font-weight: 300;
+    text-align: justify; 
+    padding-right: 92px;
+
+}
+.foot{
+    height: 80px;
+    padding-top: 25px;
+    margin-bottom: 0;
+
+
+}
+.madebyjen{
+    color:pink;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+
+
+}
+
