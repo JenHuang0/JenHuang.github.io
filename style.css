@@ -55,7 +55,7 @@
     height:100%;
     padding-top: 100px;
     padding-right: 0px;
-    max-width: 728px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -141,7 +141,7 @@
     height:100%;
     padding-top: 80px;
     padding-right: 0px;
-    max-width: 728px; 
+    max-width: 100%; 
     margin-left: auto;
     margin-right: auto;
 }
@@ -217,7 +217,7 @@
     color:pink;
 
 }
-.asrock{
+.aboutdescribtion{
     padding-left: 0;
     margin-top: 10px;
     display:flex;
