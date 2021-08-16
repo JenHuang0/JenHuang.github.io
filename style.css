@@ -28,6 +28,7 @@
     letter-spacing: 3px;
     text-transform: uppercase;
     text-decoration:none;
+    font-size: initial;
 
     
 }
@@ -210,9 +211,32 @@ width: 95px;
         overflow-x:hidden !important;
         width: 100%;
     }
+
     .jen{
-        font-size: 40px;
+        font-size: 30px;
     }
+
+    .jenn{
+        font-size: 30px;
+
+    }
+
+    .intro{
+        font-size: 4em;
+    }
+    .heading-2{
+        font-size: 6em;
+    }
+    .paragraph1{
+        font-size:2em;
+        line-height: 31px;
+
+    }
+    .sroll-bottom{
+        font-size: 18px;
+    }
+
+
 
     
 }
