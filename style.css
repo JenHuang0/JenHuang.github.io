@@ -218,7 +218,6 @@ width: 95px;
 
     .jenn{
         font-size: 30px;
-
     }
     .main-section{
         top: 120px;
@@ -229,8 +228,6 @@ width: 95px;
         margin-left: auto;
         margin-right: auto;
     }
-
-
     .intro{
         font-size: 4em;
     }
@@ -245,7 +242,24 @@ width: 95px;
     .sroll-bottom{
         font-size: 18px;
     }
-    
+    .sec-section{
+        top: 120px;
+    }
+    .sec-section-container{
+        max-width: 100%;
+        margin: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .aboutme{
+        font-size: 2em;
+    }
+    .sec-paragraph{
+        font-size: 2em;
+        line-height: 42px;
+        padding-left: 20px;
+    }
+
 
 
 
