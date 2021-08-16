@@ -17,8 +17,8 @@
     text-transform: uppercase;
     text-decoration: none; 
     width: 80%;
-    
-    
+    font-size:initial;
+
 }
 .jenn{
     color:silver;
@@ -55,7 +55,7 @@
     height:100%;
     padding-top: 100px;
     padding-right: 0px;
-    max-width: 100%;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -131,7 +131,6 @@
 .sec-section{
     position: relative;
     top:75px;
-   
     margin: 9px;
     height: auto;
 }
@@ -141,13 +140,13 @@
     height:100%;
     padding-top: 80px;
     padding-right: 0px;
-    max-width: 100%; 
+    max-width: 800px; 
     margin-left: auto;
     margin-right: auto;
 }
 
 .sec-leftbox{
-    width: 95px;
+width: 95px;
    position: relative;
    display:flex;
    margin:80px;
@@ -184,225 +183,19 @@
 
 }
 
-.third-section{
-    position: relative;
-    top:75px;
-   
-    margin: 9px;
-    height: auto;
-}
-
-.thirdone-container{
-    display: flex;
-    height:100%;
-    padding-top: 80px;
-    padding-right: 0px;
-    max-width: 728px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.thirdone-leftbox{
-   position: relative;
-   display:flex;
-   margin:80px;
-   width:95px;
-}
-.intern{
-    margin-top:10px ;
-    padding-top:60px;
-    letter-spacing: 2px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color:pink;
-
-}
 .aboutdescribtion{
     padding-left: 0;
     margin-top: 10px;
     display:flex;
     font-size:x-small;
-    
-
-}
-.thirdone-rightbox{
-    margin: 10px;
-    padding-left:85px;
-    padding-top: 80px;
-}
-.internjourney{
-    position: relative;
-    z-index: 100;
-    color:#999;
-    font-size: 1.0em;
-    line-height: 24px;
-    font-weight: 300;
-    text-align: justify; 
-    padding-right: 92px;
-}
-.thirdtwo-container{
-    display: flex;
-    height:100%;
-    padding-top: 80px;
-    padding-right: 0px;
-    max-width: 728px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.thirdtwo-leftbox{
-    position: relative;
-    display:flex;
-    margin:80px;
-    width:95px;
 }
 
-.master{
-    margin-top:10px ;
-    padding-top:60px;
-    letter-spacing: 2px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color:pink;
-
-
-}
-.thesistitle{
-    padding-left: 0;
-    margin-top: 10px;
-    display:flex;
-    font-size:x-small;
-    
-
-}
-.thirdtwo-rightbox{
-    margin: 10px;
-    padding-left:85px;
-    padding-top: 80px;
-}
-.thesis{
-    position: relative;
-    z-index: 100;
-    color:#999;
-    font-size: 1.0em;
-    line-height: 24px;
-    font-weight: 300;
-    text-align: justify; 
-    padding-right: 92px;
-}
-.thirdthird-container{
-    display: flex;
-    height:100%;
-    padding-top: 80px;
-    padding-right: 0px;
-    max-width: 728px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.thirdthird-leftbox{
-    position: relative;
-    display:flex;
-    margin:80px;
-    width:95px;
-}
-
-.independence{
-    margin-top:10px ;
-    padding-top:60px;
-    letter-spacing: 2px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color:pink;
-
-}
-.aboriginal{
-    padding-left: 10;
-    margin-top: 10px;
-    display:flex;
-    font-size:x-small;
-
-}
-.thirdthird-rightbox{
-    margin: 10px;
-    padding-left:85px;
-    padding-top: 80px;
-}
-.aboriginal-language{
-    position: relative;
-    z-index: 100;
-    color:#999;
-    font-size: 1.0em;
-    line-height: 24px;
-    font-weight: 300;
-    text-align: justify; 
-    padding-right: 92px;
-
-}
-
-.forth-section{
-    position: relative;
-    top:75px;
-   
-    margin: 9px;
-    height: auto;
-}
-
-.forth-section-container{
-    display: flex;
-    height:100%;
-    padding-top: 80px;
-    padding-right: 0px;
-    max-width: 728px; 
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.forth-leftbox{
-    width: 95px;
-   position: relative;
-   display:flex;
-   margin:80px;
-   
-
-}
-
-.findme{
-    margin-top:10px ;
-    padding-top:60px;
-    letter-spacing: 1px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color:pink;
-}
-
-.forth-rightbox{
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    margin-top: 60px;
-    padding-left:85px;
-    padding-top: 80px;
-  
-
-}
-
-.email{
-    position: relative;
-    z-index: 100;
-    color:#999;
-    font-size: 1.0em;
-    line-height: 24px;
-    font-weight: 300;
-    text-align: justify; 
-    padding-right: 92px;
-
-}
 .foot{
     height: 80px;
     padding-top: 25px;
     margin-bottom: 0;
-
-
 }
+
 .madebyjen{
     color:pink;
     font-size: 10px;
@@ -410,6 +203,17 @@
     text-transform: uppercase;
     text-align: center;
 
+}
 
+@media only screen and (max-width:1300px){
+    body{
+        overflow-x:hidden !important;
+        width: 100%;
+    }
+    .jen{
+        font-size: 40px;
+    }
+
+    
 }
 
