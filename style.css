@@ -81,7 +81,7 @@
     font-size: 2em;
     font-weight: 700;
 }
-.heading-2{
+.heading-1{
    font-size: 5em;
    margin-top:0;
    margin-bottom:0;
@@ -147,12 +147,10 @@
 }
 
 .sec-leftbox{
-width: 95px;
-   position: relative;
-   display:flex;
-   margin:80px;
-   
-
+    width: 95px;
+    position: relative;
+    display:flex;
+    margin:80px;
 }
 
 .aboutme{
@@ -165,9 +163,10 @@ width: 95px;
 }
 
 .sec-rightbox{
-    margin: 10px;
+    margin: 30px;
+    position: relative;
     padding-left:85px;
-    padding-top: 80px;
+    padding-top:110px;
   
 
 }
@@ -188,7 +187,7 @@ width: 95px;
     padding-left: 0;
     margin-top: 10px;
     display:flex;
-    font-size:x-small;
+    font-size:small;
 }
 
 .foot{
@@ -231,7 +230,7 @@ width: 95px;
     .intro{
         font-size: 4em;
     }
-    .heading-2{
+    .heading-1{
         font-size: 6em;
     }
     .paragraph1{
